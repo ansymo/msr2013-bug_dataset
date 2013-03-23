@@ -1,2 +1,7 @@
-msr2013-bug_dataset
-===================
+The Mozilla and Eclipse Defect Tracking Data: a Genuine Data Set for Mining Bug Information.
+===============================================================================================
+
+
+
+## Citation information
+
