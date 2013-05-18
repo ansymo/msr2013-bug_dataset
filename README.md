@@ -1,5 +1,5 @@
 The Mozilla and Eclipse Defect Tracking Dataset
-============================================
+===============================================
 
 Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 47000 and 168000 of bugs reported for Eclipse and Mozilla respectively. Besides the single latest snapshot of a bug report, we also provide all the changes each bug has gone through in its lifetime. Below, you can find additional information about the dataset.
 
@@ -7,6 +7,7 @@ Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 470
 - [Description](#description)
 	- [Model of the Dataset](#model-of-the-dataset)
 	- [Structure of the dataset](#structure-of-the-dataset)
+- [We need you!](#we-need-you)
 
 # Description
 The Eclipse and Mozilla Defect Tracking Dataset contains bug reports reported for 4 popular products of both Eclipse and Mozilla. For Eclipse and Mozilla respectively, the following products are selected along with some basic numbers:
@@ -32,17 +33,25 @@ For each attribute, we compiled a list of updates denoting the different "change
 ## Structure of the Dataset
 <img align="center" width="60%" src="https://raw.github.com/ansymo/msr2013-bug_dataset/master/figures/dataset-structure.png">
 
-As we see above, the _Eclipse and Mozilla Defect Tracking Dataset_ is bundled as a set of XML files. Both Eclipse and Mozilla have a separate directory consisting of the products we previously selected. Each product directory contains for each _bug attribute_ an XML file containing the corresponding information. We distinguish _reports.xml_ from the other XMl files: _reports.xml_ contains the attributes that remain unchanged after reporting while the other XML files provide all the updates occurred for the particular attribute. We also show an example of the updates that occurred for the 
-# Citing us
-
-> Ahmed Lamkanfi, Javier P\'erez, Serge Demeyer, "The Eclipse and Mozilla Defect Tracking Dataset: a Genuine Dataset for Mining Bug Information" in _MSR '13: Proceedings of the 10th Working Conference on Mining Software Repositories_, May 18-–19, 2013. San Francisco, California, USA.
+As we see above, the _Eclipse and Mozilla Defect Tracking Dataset_ is bundled as a set of XML files. Both Eclipse and Mozilla have a separate directory consisting of the products we previously selected. Each product directory contains for each _bug attribute_ an XML file containing the corresponding information. We distinguish _reports.xml_ from the other XMl files: _reports.xml_ contains the attributes that remain unchanged after reporting while the other XML files provide all the updates occurred for the particular attribute. We also show an example of the updates that occurred for the _short\_desc_ bug attribute.
 
 # We need you!
 We need you to make the dataset more useful for researchers. If you have any questions and/or suggestions to improve the dataset, don't hesitate to contact us or submit an _Issue_ on this page. In our case, we are particularly interested in the following things:
 
-- Including additional projects
-- Integrating the bug dataset with other repositories, e.g.: _CVS/SVN_ repositories, _email communication_, ...
-- Contributing your results and/or scripts of your experiment to this Github repository
-- Referencing (Bibrefs !) your papers where this dataset has been used
+- Inclusion of additional projects
+- Integration of the bug dataset with other repositories, e.g.: _CVS/SVN_ repositories, _email communication_, ...
+- Contribution of your results and/or scripts of your experiment to this Github repository
+- References to your papers (Bibrefs !) where this dataset has been used
 
+
+# Citing us
+
+	@inproceedings{LamkanfiMSR13,
+		author    = {Ahmed Lamkanfi and Javier Perez and Serge Demeyer},
+		title     = {The Eclipse and Mozilla Defect Tracking Dataset: 
+			a Genuine Dataset for Mining Bug Information},
+		booktitle = {MSR '13: Proceedings of the 10th Working Conference on Mining Software Repositories, 
+			May 18-–19, 2013. San Francisco, California, USA},
+		year      = {2013},
+	}
 
