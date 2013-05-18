@@ -9,8 +9,14 @@ Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 470
 	- [Structure of the dataset](#structure-of-the-dataset)
 
 # Description
-The Eclipse and Mozilla Defect Tracking Dataset presented in this paper contains a set of bug reports of four popular products of both Eclipse and Mozilla. Moreover, it also covers the complete lifetime of each bug report: all the updates of each considered bug report attribute are also included.
+The Eclipse and Mozilla Defect Tracking Dataset contains bug reports reported for 4 popular products of both Eclipse and Mozilla. For Eclipse and Mozilla respectively, the following products are selected:
 
+**Product**		| **No. of Bugs**	| **No. of Components**
+----------------|-------------------|----------------------
+Platform		|	24775			|	22
+JDT				|	10814			|	6
+CDT				|	5640			|	20
+GEF				|	5655			|	5
 
 For each product, we provide the resolved reported bugs with the corresponding report attributes as shows in Figure~\ref{fig:model}. The attributes (instances of _Report Attribute_ in the model) that are considered in this dataset are the following:
 
