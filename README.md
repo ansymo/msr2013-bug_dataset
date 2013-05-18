@@ -37,7 +37,12 @@ As we see above, the _Eclipse and Mozilla Defect Tracking Dataset_ is bundled as
 
 > Ahmed Lamkanfi, Javier P\'erez, Serge Demeyer, "The Eclipse and Mozilla Defect Tracking Dataset: a Genuine Dataset for Mining Bug Information" in _MSR '13: Proceedings of the 10th Working Conference on Mining Software Repositories_, May 18-–19, 2013. San Francisco, California, USA.
 
-# Please contribute
+# We need you!
+We need you to make the dataset more useful for researchers. If you have any questions and/or suggestions to improve the dataset, don't hesitate to contact us or submit an _Issue_ on this page. In our case, we are particularly interested in the following things:
 
+- Including additional projects
+- Integrating the bug dataset with other repositories, e.g.: _CVS/SVN_ repositories, _email communication_, ...
+- Contributing your results and/or scripts of your experiment to this Github repository
+- Referencing (Bibrefs !) your papers where this dataset has been used
 
 
