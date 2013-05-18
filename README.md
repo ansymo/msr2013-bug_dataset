@@ -8,6 +8,7 @@ Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 470
 	- [Model of the Dataset](#model-of-the-dataset)
 	- [Structure of the dataset](#structure-of-the-dataset)
 - [We need you!](#we-need-you)
+- [Citing us](#citing-us)
 
 # Description
 The Eclipse and Mozilla Defect Tracking Dataset contains bug reports reported for 4 popular products of both Eclipse and Mozilla. For Eclipse and Mozilla respectively, the following products are selected along with some basic numbers:
@@ -45,6 +46,7 @@ We need you to make the dataset more useful for researchers. If you have any que
 
 
 # Citing us
+Please refer to our work when this dataset was relevant to your paper.
 
 	@inproceedings{LamkanfiMSR13,
 		author    = {Ahmed Lamkanfi and Javier Perez and Serge Demeyer},
