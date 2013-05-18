@@ -1,7 +1,7 @@
 The Mozilla and Eclipse Defect Tracking Dataset
 ===============================================
 
-Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 47000 and 168000 of bugs reported for Eclipse and Mozilla respectively. Besides the single latest snapshot of a bug report, we also provide all the changes each bug has gone through in its lifetime. Below, you can find additional information about the dataset.
+Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 47.000 and 168.000 of bugs reported for Eclipse and Mozilla respectively. Besides the single latest snapshot of a bug report, we also provide all the changes each bug has gone through in its lifetime. Below, you can find additional information about the dataset.
 
 # Table of Contents
 - [Description](#description)
@@ -16,17 +16,17 @@ The Eclipse and Mozilla Defect Tracking Dataset contains bug reports reported fo
 
 **Product**    	| **No. of Bugs**	| **No. of Components**
 ----------------|-------------------|----------------------
-Platform		|	24775			|	22
-JDT				|	10814			|	6
-CDT				|	5640			|	20
-GEF				|	5655			|	5
+Platform		|	24.775			|	22
+JDT				|	10.814			|	6
+CDT				|	5.640			|	20
+GEF				|	5.655			|	5
 
 **Product**		| **No. of Bugs**	| **No. of Components**
 ----------------|-------------------|----------------------
-Core			|	74292			|	137
-Firefox			|	69879			|	47
-Thunderbird		|	19237			|	23
-Bugzilla		|	4616			|	21
+Core			|	74.292			|	137
+Firefox			|	69.879			|	47
+Thunderbird		|	19.237			|	23
+Bugzilla		|	4.616			|	21
 
 
 For each attribute, we compiled a list of updates denoting the different "changes" that have been performed over the entire lifetime of the respective report. For each such change, we include the timestamp when the attribute was updated (the _when_) and the new value of the respective bug report attribute (the _what_).
@@ -42,7 +42,7 @@ We need you to make the dataset more useful for researchers. If you have any que
 - Inclusion of additional projects
 - Integration of the bug dataset with other repositories, e.g.: _CVS/SVN_ repositories, _email communication_, ...
 - Contribution of your results and/or scripts of your experiment to this Github repository
-- References to your papers (Bibrefs !) where this dataset has been used
+- References to your papers (Bibrefs!) where this dataset has been used
 
 
 # Citing us
