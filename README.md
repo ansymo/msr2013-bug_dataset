@@ -1,5 +1,10 @@
-The Mozilla and Eclipse Defect Tracking Data
+The Mozilla and Eclipse Defect Tracking Dataset
 ============================================
+
+Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 47000 and 168000 of bugs reported for Eclipse and Mozilla respectively. Besides the single latest snapshot of a bug report, we also provide all the changes each bug has gone through in its lifetime. Below, you can find additional information about the dataset.
+
+* auto-gen TOC:
+{:toc}
 
 ## Description
 The Eclipse and Mozilla Defect Tracking Dataset presented in this paper contains a set of bug reports of four popular products of both Eclipse and Mozilla. Moreover, it also covers the complete lifetime of each bug report: all the updates of each considered bug report attribute are also included.
@@ -8,21 +13,21 @@ The Eclipse and Mozilla Defect Tracking Dataset presented in this paper contains
 For each product, we provide the resolved reported bugs with the corresponding report attributes as shows in Figure~\ref{fig:model}. The attributes (instances of _Report Attribute_ in the model) that are considered in this dataset are the following:
 
 
-For each attribute, we compiled a list of updates denoting the different ``changes'' that have been performed over the entire lifetime of the respective report. For each such change, we include the timestamp when the attribute was updated (the _when_) and the new value of the respective bug report attribute (the _what_).
+For each attribute, we compiled a list of updates denoting the different "changes" that have been performed over the entire lifetime of the respective report. For each such change, we include the timestamp when the attribute was updated (the _when_) and the new value of the respective bug report attribute (the _what_).
 
 
 <img align="center" width="60%" src="https://raw.github.com/ansymo/msr2013-bug_dataset/master/figures/model.png">
 
 - eclipse / mozilla 
 	- product_1
-			* reports.xml 
-			* attribute_1.xml 
-			* attribute_2.xml 
-			* ... 
-			* attribute_n.xml
-		* product_2 
-		* ...
-		* product_n
+		- reports.xml 
+		- attribute_1.xml 
+		- attribute_2.xml 
+		- ... 
+		- attribute_n.xml
+	- product_2 
+		- ...
+	- product_n
 
 
 In regards of its format, the _Eclipse and Mozilla Defect Tracking Dataset_ has been packaged as a bundle of XML files (see Figure~\ref{fig:structure}). Primarily, the two projects Eclipse and Mozilla are organized in separate directories. For each product of the respective projects, there is a separate directory storing all information relevant for that particular product. Each of these directories, or smaller sub-repositories, consists of a set of XML files containing the respective updates of a single particular attribute. This way, the full history of each considered bug attribute is stored in each separate XML file.
