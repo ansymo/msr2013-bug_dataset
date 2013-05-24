@@ -25,7 +25,7 @@ For this purpose, we write a simple Ruby script that parses the dataset and subs
 	end
 ```
 
-* Subsequently, we apply a regular expression on the summary and the display it when it matches
+* Subsequently, we apply a regular expression on the summary and the display it when it matches. We borrowed the regular expression from Gomez et al. (see their MSR 2013 paper entitled _"A Study of Innovation Diffusion Through Link Sharing on Stack Overflow"_)
 ```
 	regex = /(?i)\b(wtf|wth|omfg|hell|ass|bitch|bullshit|bloody|fucking?|shit+y?|crap+y?)\b|\b(fuck|damn|piss|screw|suck)e?d?\b/
 	puts summary if (summary.match regex) != nil
