@@ -9,7 +9,7 @@ For this purpose, we write a simple Ruby script that parses the dataset and subs
 - _same old shit...._
 - _DEAR FUCKING PROGRAMMERS OF FUCKING FIREFOX._
 - _Your browser sucks serious ass -- multiple crashes, doesn't matter what the f'ing URL is_
-- _shit is in french_
+- _"shit is in french"_
 - and much more swearing...
 
 ### The example

@@ -13,7 +13,7 @@ Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 47.
 
 # Examples
 We demonstrate the usage of the dataset using the following examples:
-- people swearing in bug reports
+- [people swearing in bug reports](examples/swearing)
 
 # Description
 The Eclipse and Mozilla Defect Tracking Dataset contains bug reports reported for 4 popular products of both Eclipse and Mozilla. For Eclipse and Mozilla respectively, the following products are selected along with some basic numbers:
