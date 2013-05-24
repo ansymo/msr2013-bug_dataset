@@ -5,11 +5,11 @@ We demonstrate how the _Mozilla and Eclipse Defect Tracking Dataset_ can be used
 
 For this purpose, we write a simple Ruby script that parses the dataset and subsequently use a regular expression to retrieve the swearing and cursing summaries. The resulting summaries include the following summaries:
 
-- "_Mozilla developers are fucking bastards_"
-- "_same old shit..._"
-- "_DEAR FUCKING PROGRAMMERS OF FUCKING FIREFOX._"
-- "_Your browser sucks serious ass -- multiple crashes, doesn't matter what the f'ing URL is_"
-- "_shit is in french_"
+- _Mozilla developers are fucking bastards_
+- _same old shit..._
+- _DEAR FUCKING PROGRAMMERS OF FUCKING FIREFOX._
+- _Your browser sucks serious ass -- multiple crashes, doesn't matter what the f'ing URL is_
+- _shit is in french_
 - and much more swearing...
 
 # The example
