@@ -33,5 +33,6 @@ For this purpose, we write a simple Ruby script that parses the dataset and subs
 
 ### Running it yourself!
 1. Install Ruby (v1.9) and Rubygems on your system
+2. Install Bundler on your system: `gem install bundler`
 2. Install bundler on your system and run the following command `bundle install`
 3. run the script: `ruby swearing.rb`
