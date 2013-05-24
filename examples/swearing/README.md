@@ -10,6 +10,8 @@ For this purpose, we write a simple Ruby script that parses the dataset and subs
 - _"DEAR FUCKING PROGRAMMERS OF FUCKING FIREFOX."_
 - _"Your browser sucks serious ass -- multiple crashes, doesn't matter what the f'ing URL is"_
 - _"shit is in french"_
+- _"browser.contentHandlers.* + gecko.handlerService.schemes.* + network.protocol-handler.* = WTF?"_
+- _"If you don't stop hijacking my browser, I will stop using your browser and tell EVERYONE what a pain in the ass you all are."_
 - and much more swearing...
 
 ### The example
