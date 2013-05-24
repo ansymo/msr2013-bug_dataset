@@ -6,6 +6,7 @@ Bundler.require
 doc = Nokogiri::XML(File.open("../data/short_desc.xml")) do |config|
   config.noblanks
 end
+
 dataset = {"short_desc" => {}}
 doc.xpath('//short_desc/report').each do |report|
   bug_id = report['id']
@@ -17,7 +18,7 @@ doc.xpath('//short_desc/report').each do |report|
   end
 end
 
-#iterate over all summaries in the dataset and find curse words in the summary using regular expressions
+#iterate over all summaries in the dataset and find curse words in the summary (as it was initially reported) using regular expressions
 for bug_id in dataset['short_desc'].keys
   summary = dataset['short_desc'][bug_id].first["what"]
   puts summary if (summary.match /(?i)\b(wtf|wth|omfg|hell|ass|bitch|bullshit|bloody|fucking?|shit+y?|crap+y?)\b|\b(fuck|damn|piss|screw|suck)e?d?\b/) != nil

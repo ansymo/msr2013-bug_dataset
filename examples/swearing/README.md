@@ -12,20 +12,19 @@ For this purpose, we write a simple Ruby script that parses the dataset and subs
 - _shit is in french_
 - and much more swearing...
 
-## The example
+### The example
 
-1. First, we parse the dataset using the fast [Nokogiri](http://nokogiri.org/) XML library
+* First, we parse the dataset using the fast [Nokogiri](http://nokogiri.org/) XML library
 	
-2. Next, we iterate over all the summaries of the bug reports
+* Next, we iterate over all the summaries of the bug reports
 
-    for bug_id in dataset['short_desc'].keys
-        ...
-    end
+	for bug_id in dataset['short_desc'].keys ... end
 
-3. Subsequently, we apply a regular expression on the summary
+* Subsequently, we apply a regular expression on the summary
+
 	puts summary if (summary.match /(?i)\b(wtf|wth|omfg|hell|ass|
 
-## Running the example
+### Running the example
 1. Install Ruby (v1.9) and Rubygems on your system
 2. Install bundler on your system and run the following command `bundle install`
 3. run the script: `ruby swearing.rb`

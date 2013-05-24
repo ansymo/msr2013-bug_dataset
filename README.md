@@ -4,11 +4,16 @@ The Mozilla and Eclipse Defect Tracking Dataset
 Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 47.000 and 168.000 of bugs reported for Eclipse and Mozilla respectively. Besides the single latest snapshot of a bug report, we also provide all the changes each bug has gone through in its lifetime. Below, you can find additional information about the dataset.
 
 # Table of Contents
+- [Examples](#examples)
 - [Description](#description)
 	- [Model of the Dataset](#model-of-the-dataset)
 	- [Structure of the dataset](#structure-of-the-dataset)
 - [We need you!](#we-need-you)
 - [Citing us](#citing-us)
+
+# Examples
+We demonstrate the usage of the dataset using the following examples:
+- people swearing in bug reports
 
 # Description
 The Eclipse and Mozilla Defect Tracking Dataset contains bug reports reported for 4 popular products of both Eclipse and Mozilla. For Eclipse and Mozilla respectively, the following products are selected along with some basic numbers:
