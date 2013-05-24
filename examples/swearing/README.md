@@ -16,13 +16,16 @@ For this purpose, we write a simple Ruby script that parses the dataset and subs
 
 * First, we parse the dataset using the fast [Nokogiri](http://nokogiri.org/) XML library
 	
-* Next, we iterate over all the summaries of the bug reports
+* Next, we iterate over all the summaries of the bug reports and retrieve the initial version of the summary
 
-	for bug_id in dataset['short_desc'].keys ... end
+	for bug_id in dataset['short_desc'].keys
+		summary = dataset['short_desc'][bug_id].first["what"]
+	end
 
-* Subsequently, we apply a regular expression on the summary
-
-	puts summary if (summary.match /(?i)\b(wtf|wth|omfg|hell|ass|
+* Subsequently, we apply a regular expression on the summary and the display it when it matches
+	
+	regex = /(?i)\b(wtf|wth|omfg|hell|ass|bitch|bullshit|bloody|fucking?|shit+y?|crap+y?)\b|\b(fuck|damn|piss|screw|suck)e?d?\b/
+	puts summary if (summary.match regex) != nil
 
 ### Running the example
 1. Install Ruby (v1.9) and Rubygems on your system
