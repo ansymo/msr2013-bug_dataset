@@ -14,7 +14,7 @@ For this purpose, we write a simple Ruby script that parses the dataset and subs
 - _"If you don't stop hijacking my browser, I will stop using your browser and tell EVERYONE what a pain in the ass you all are."_
 - and much more swearing...
 
-### The example
+### How we got there?
 
 * First, we parse the dataset using the fast [Nokogiri](http://nokogiri.org/) XML library
 	
@@ -31,7 +31,7 @@ For this purpose, we write a simple Ruby script that parses the dataset and subs
 	puts summary if (summary.match regex) != nil
 ```
 
-### Running the example
+### Running it yourself!
 1. Install Ruby (v1.9) and Rubygems on your system
 2. Install bundler on your system and run the following command `bundle install`
 3. run the script: `ruby swearing.rb`
