@@ -15,14 +15,14 @@ Welcome to the **Mozilla and Eclipse Defect Tracking Dataset**: a dataset with o
 # Description
 The **Eclipse and Mozilla Defect Tracking Dataset** contains the bug reported for 4 popular products retrieved from both Eclipse and Mozilla. Below, we show the selected products along with some basic information for _Eclipse_ and _Mozilla_ respectively.
 
-**Product**    	 | **Number of components**| **Number of reports **
+**Product**    	 | **Number of components**| **Number of reports**
 :----------------|:-----------------------:|:------------------------:
 **Platform**		 |	22                     |	24.775
 **JDT**			     |	6                      |	10.814
 **CDT**				   |	20                     |	5.640
 **GEF**				   |	5                      |	5.655
 
-**Product**    	 | **Number of components**| **Number of reports **
+**Product**    	 | **Number of components**| **Number of reports**
 :----------------|:-----------------------:|:------------------------:
 **Core**			   |	137                    |	74.292
 **Firefox**			 |	47                     |	69.879
