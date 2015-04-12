@@ -33,7 +33,7 @@ The **Eclipse and Mozilla Defect Tracking Dataset** contains the bug reported fo
 As an end-user of software application reports a malfunctioning in a software application, the end-user provides contextual information concerning the observed bug. The information provided in a bug report can be modified during its lifetime. There are several reasons why changing/updating the information of a reported bug is desirable:
 * a report is incomplete and thus does not include vital information to fix the bug
 * a report provides inaccurate information
-* an update of the current development state, e.g., the status changes from **_new_** to **_assigned_** and subsequently to **_closed_**
+* an update of the current development state, e.g., the status of a bug report changes from **_new_** to **_assigned_** and subsequently to **_closed_**
 
 With each report in the dataset, a list of modifications provides the full update history. 
 <!--For each such change, we include the timestamp **_when_** the attribute was updated and **_what_** the new value of the respective bug report attribute.-->
