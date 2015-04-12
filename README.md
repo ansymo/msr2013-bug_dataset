@@ -1,45 +1,54 @@
 The Mozilla and Eclipse Defect Tracking Dataset
 ===============================================
 
-Welcome to the _Mozilla and Eclipse Defect Tracking Dataset_ containing over 47.000 and 168.000 of bugs reported for Eclipse and Mozilla respectively. Besides the single latest snapshot of a bug report, we also provide all the changes each bug has gone through in its lifetime. Below, you can find additional information about the dataset.
+Welcome to the **Mozilla and Eclipse Defect Tracking Dataset**: a dataset with over 200.000 reported bugs extracted from the _Eclipse_ and _Mozilla_ projects (respectively 47.000 and 168.000 reported bugs). Besides providing a single snapshot of a bug report, we also include all the incremental modifications as performed during the lifetime of the bug report. Below, you can find additional information about the dataset.
 
 # Table of Contents
-- [Examples](#examples)
 - [Description](#description)
-	- [Model of the Dataset](#model-of-the-dataset)
-	- [Structure of the dataset](#structure-of-the-dataset)
+- [Structure of the dataset](#structure-of-the-dataset)
+- [Examples](#examples)
 - [We need you!](#we-need-you)
 - [Citing us](#citing-us)
 
-# Examples
-We demonstrate the usage of the dataset using the following examples:
-- [people swearing in bug reports](examples/swearing)
+
 
 # Description
-The Eclipse and Mozilla Defect Tracking Dataset contains bug reports reported for 4 popular products of both Eclipse and Mozilla. For Eclipse and Mozilla respectively, the following products are selected along with some basic numbers:
+The **Eclipse and Mozilla Defect Tracking Dataset** contains the bug reported for 4 popular products retrieved from both Eclipse and Mozilla. Below, we show the selected products along with some basic information for _Eclipse_ and _Mozilla_ respectively.
+
+**Product**    	 | **Number of components**| **Number of reports **
+:----------------|:-----------------------:|:------------------------:
+**Platform**		 |	22                     |	24.775
+**JDT**			     |	6                      |	10.814
+**CDT**				   |	20                     |	5.640
+**GEF**				   |	5                      |	5.655
+
+**Product**    	 | **Number of components**| **Number of reports **
+:----------------|:-----------------------:|:------------------------:
+**Core**			   |	137                    |	74.292
+**Firefox**			 |	47                     |	69.879
+**Thunderbird**	 |	23                     |	19.237
+**Bugzilla**		 |	21                     |	4.616
 
 
-**Product**    	| **No. of Bugs**	| **No. of Components**
-----------------|-------------------|----------------------
-Platform		|	24.775			|	22
-JDT				|	10.814			|	6
-CDT				|	5.640			|	20
-GEF				|	5.655			|	5
+As an end-user of software application reports a malfunctioning in a software application, the end-user provides contextual information concerning the observed bug. The information provided in a bug report can be modified during its lifetime. There are several reasons why changing/updating the information of a reported bug is desirable:
+* a report is incomplete and thus does not include vital information to fix the bug
+* a report provides inaccurate information
+* an update of the current development state, e.g., the status changes from **_new_** to **_assigned_** and subsequently to **_closed_**
 
-**Product**		| **No. of Bugs**	| **No. of Components**
-----------------|-------------------|----------------------
-Core			|	74.292			|	137
-Firefox			|	69.879			|	47
-Thunderbird		|	19.237			|	23
-Bugzilla		|	4.616			|	21
-
-
-For each attribute, we compiled a list of updates denoting the different "changes" that have been performed over the entire lifetime of the respective report. For each such change, we include the timestamp when the attribute was updated (the _when_) and the new value of the respective bug report attribute (the _what_).
+With each report in the dataset, a list of modifications provides the full update history. 
+<!--For each such change, we include the timestamp **_when_** the attribute was updated and **_what_** the new value of the respective bug report attribute.-->
 
 ## Structure of the Dataset
 <img align="center" width="60%" src="https://raw.github.com/ansymo/msr2013-bug_dataset/master/figures/dataset-structure.png">
 
 As we see above, the _Eclipse and Mozilla Defect Tracking Dataset_ is bundled as a set of XML files. Both Eclipse and Mozilla have a separate directory consisting of the products we previously selected. Each product directory contains for each _bug attribute_ an XML file containing the corresponding information. We distinguish _reports.xml_ from the other XMl files: _reports.xml_ contains the attributes that remain unchanged after reporting while the other XML files provide all the updates occurred for the particular attribute. We also show an example of the updates that occurred for the _short\_desc_ bug attribute.
+
+
+# Examples
+We demonstrate the usage of the dataset using the following examples:
+- [people swearing in bug reports](examples/swearing)
+
+
 
 # We need you!
 We need you to make the dataset more useful for researchers. If you have any questions and/or suggestions to improve the dataset, don't hesitate to contact us or submit an _Issue_ on this page. In our case, we are particularly interested in the following things:
